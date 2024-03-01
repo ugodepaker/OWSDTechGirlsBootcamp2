@@ -35,9 +35,9 @@ st.write("Please input the values for plant yield parameters")
 
 # Input fields for user input
 st.sidebar.header('Plant Yield Parameters')
-tv = st.sidebar.text_input('Average Rainfall (mm)', '150.0')
-radio = st.sidebar.text_input('Pesticides (tonnes)', '25.0')
-newspaper = st.sidebar.text_input('Average Temperature', '50.0')
+tv = st.sidebar.text_input('Average Rainfall (mm)', '600')
+radio = st.sidebar.text_input('Pesticides (tonnes)', '9.5')
+newspaper = st.sidebar.text_input('Average Temperature', '25.2')
 
 # Submit button
 if st.sidebar.button('Submit'):
